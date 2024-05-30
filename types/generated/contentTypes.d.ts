@@ -376,6 +376,7 @@ export interface ApiPromptPrompt extends Schema.CollectionType {
   attributes: {
     name: Attribute.String & Attribute.Required & Attribute.Unique;
     content: Attribute.Text & Attribute.Required;
+    system_message: Attribute.Text;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;

@@ -20,6 +20,9 @@
     "content": {
       "type": "text",
       "required": true
+    },
+    "system_message": {
+      "type": "text"
     }
   }
 }
